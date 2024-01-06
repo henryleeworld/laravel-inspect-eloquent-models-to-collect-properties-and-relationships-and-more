@@ -1,4 +1,4 @@
-# Laravel 8 檢查 Eloquent 模型並收集屬性、關係等
+# Laravel 10 檢查 Eloquent 模型並收集屬性、關係等
 
 引入 cerbero 的 eloquent-inspector 套件來擴增檢查 Eloquent 模型並收集屬性、關係等，模型關係和屬性回傳一個陣列，鍵是屬性／關係名稱，值是包含有關該屬性／關係的詳細資訊的對象。
 
@@ -26,5 +26,5 @@ $ php artisan migrate
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/JIVJ226.png)
+![](https://i.imgur.com/Z5e7rls.png)
 > 使用者模型詳細資訊
