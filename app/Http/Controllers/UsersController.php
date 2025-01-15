@@ -10,7 +10,7 @@ class UsersController extends Controller
     public function inspect() 
     {
         $useStatements = Inspector::inspect(User::class)->getUseStatements();
-        echo '使用者模型陳述' . PHP_EOL;
+        echo __('User model statement: ') . PHP_EOL;
         var_dump($useStatements);
         $relationships = Inspector::inspect(User::class)->getRelationships();
         /*
@@ -24,7 +24,7 @@ class UsersController extends Controller
             }
         ]
         */
-        echo '使用者模型關係' . PHP_EOL;
+        echo __('User model relationship: ') . PHP_EOL;
         var_dump($relationships);
     }
 }
